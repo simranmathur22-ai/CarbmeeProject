@@ -1,0 +1,6 @@
+material_type,weight_kg,supplier_country,transport_mode
+Steel,5000,India,Ocean
+Aluminum,2000,Germany,Road
+Steel,8000,China,Ocean
+Cardboard,100,Vietnam,Air
+Aluminum,1200,France,Rail
