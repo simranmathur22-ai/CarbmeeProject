@@ -6,10 +6,15 @@ Developed a production-grade, secure data pipeline and analytics infrastructure 
 🛠️ The Core Infrastructure Tech Stack
 
 Data Engineering & Extraction: Python 3.11, Pandas, Requests, Dotenv, Logging
+
 Third-Party Data Enrichment: Climatiq Global Carbon Registry REST API
+
 Cloud Data Warehousing: AWS RDS (PostgreSQL Instance), SQLAlchemy
+
 Enterprise CRM & Business Intelligence: Salesforce, CRM Analytics (CRMA / Tableau CRM)
+
 Security & Compliance: SSL-encrypted database tunneling, secure .env credential isolation
+
 
 🏗️ Architecture Pipeline Blueprint
 
@@ -17,7 +22,9 @@ Security & Compliance: SSL-encrypted database tunneling, secure .env credential 
 |  Climatiq Carbon API   | <=======================> |  Python ETL Pipeline  |
 +------------------------+                           +-----------------------+
                                                                  │
+                                                                 
                                                        Bulk Write via SSL Mode
+                                                       
                                                                  ▼
 +------------------------+     JDBC Native Connect    +-----------------------+
 | Salesforce CRMA Engine | <========================> | AWS RDS (PostgreSQL)  |
